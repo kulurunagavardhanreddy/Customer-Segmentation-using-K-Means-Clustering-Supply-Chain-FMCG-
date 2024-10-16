@@ -108,16 +108,3 @@ st.write(data[['Annual Income (k$)', 'Spending Score (1-100)', 'Cluster']])
 # Allowing user to download clustered data
 csv = data.to_csv(index=False)
 st.download_button("Download Clustered Data", data=csv, file_name="Clustered_Customers.csv")
-
-import os
-import streamlit as st
-from pathlib import Path
-
-# Path to your image
-image_path = Path(r"C:\Users\nag15\.spyder-py3\Spyder Projects\Machine Learning\Clustering\center-2064919.jpg")
-
-# Check if the image exists and display appropriate message
-if os.path.exists(image_path):
-    st.write("Image found!")
-else:
-    st.write("Image not found!")
