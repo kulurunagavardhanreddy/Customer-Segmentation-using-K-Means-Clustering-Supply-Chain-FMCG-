@@ -30,7 +30,7 @@ def img(image_path):
 img(r'center-2064919.jpg')
     
 # Importing the dataset
-data = pd.read_csv(r"C:\Users\nag15\.spyder-py3\Spyder Projects\Machine Learning\Clustering\Mall_Customers.csv")
+data = pd.read_csv(r"Mall_Customers.csv")
 
 st.write("### Dataset Preview:")
 st.write(data.head())
