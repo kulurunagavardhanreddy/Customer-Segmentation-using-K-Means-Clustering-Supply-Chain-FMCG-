@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import base64
 # Streamlit app
-st.markdown("<h1 style='color: magenta;'>Customer Segmentation using K-Means Clustering</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: magenta;'>Customer Segmentation using K-Means Clustering-Supply-Chain-FMCG</h1>", unsafe_allow_html=True)
 
 def img(image_path):
     with open(image_path, "rb") as image_file:
